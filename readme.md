@@ -8,7 +8,7 @@ Wuhan University and Huawei Technology
 
 ### Visual results on isotropic Gaussian blur
  ![image](/img/res.png)
-## Install
+## 🧩Install
 ```
 git clone https://github.com/XY-boy/DRSR.git
 ```
@@ -28,5 +28,4 @@ git clone https://github.com/XY-boy/DRSR.git
 }
 ```
 ## Acknowledgement
-Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR).<br>
-Thanks to these awesome works!
+Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR). Thanks for these excellent works!
