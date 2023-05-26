@@ -16,6 +16,13 @@ git clone https://github.com/XY-boy/DRSR.git
 > - Python 3.8
 > - PyTorch >= 1.9
 > - Ubuntu 18.04, cuda-11.1
+
+## Dataset Preparation
+### Step I. Download the following remote sensing dataset
+| Data Type | AID | DOTA-2.0 | Jilin-T |
+| :----: | :-----: | :----: | :----: |
+|Training | [Download]() | - | - |
+|Testing | [Download]() | 单元格 | 单元格 |
 ## Citation
 
 ```
