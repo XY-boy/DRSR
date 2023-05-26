@@ -18,11 +18,19 @@ git clone https://github.com/XY-boy/DRSR.git
 > - Ubuntu 18.04, cuda-11.1
 
 ## Dataset Preparation
-### Step I. Download the following remote sensing dataset
-| Data Type | AID | DOTA-2.0 | Jilin-T |
+**Step I.** Please download the following remote sensing datasets
+| Data Type | [AID](https://captain-whu.github.io/AID/) | [DOTA-v2.0](https://captain-whu.github.io/DOTA/dataset.html) | [Jilin-1](https://ieeexplore.ieee.org/abstract/document/9530280) |
 | :----: | :-----: | :----: | :----: |
-|Training | [Download]() | - | - |
-|Testing | [Download]() | 单元格 | 单元格 |
+|Training | [Download](https://onedrive.live.com/?authkey=%21AAqO0B6SeejPkr0&id=42EC9A19F3DE58D8%2176404&cid=42EC9A19F3DE58D8&parId=root&parQt=sharedby&o=OneUp) | None | None |
+|Testing | [Download]() | [Download]() | [Download]() |
+
+**Step II.** Prepare the test sets under different degradation settings
+
+- For ***"Isotropic Blur"*** degradations:
+We follow the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC).
+- For ***"Anisotropic Blur + Noise"*** degradations:
+We modify the degradation funtion.
+
 ## Citation
 
 ```
