@@ -7,7 +7,7 @@ Authors: [Yi Xiao](https://xy-boy.github.io/), [Qiangqiang Yuan*](http://qqyuan.
 Wuhan University and Huawei Technology
 
 ### Network
- ![image](/img/D2U.png)
+ ![image](/img/D2U.jpg)
 ## 🧩Install
 ```
 git clone https://github.com/XY-boy/DRSR.git
