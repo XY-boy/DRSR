@@ -6,8 +6,8 @@ PyTorch codes for "[From Degrade to Upgrade: Learning a Self-Supervised Degradat
 Authors: [Yi Xiao](https://xy-boy.github.io/), [Qiangqiang Yuan*](http://qqyuan.users.sgg.whu.edu.cn/), [Kui Jiang](https://github.com/kuijiang94/home/blob/master/home.md), [Jiang He](https://jianghe96.github.io/), [Yuan Wang](https://scholar.google.com.hk/citations?user=lB1KOAcAAAAJ&hl), and [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html)<br>
 Wuhan University and Huawei Technology
 
-### Visual results on isotropic Gaussian blur
- ![image](/img/res.png)
+### Network
+ ![image](/img/D2U.png)
 ## 🧩Install
 ```
 git clone https://github.com/XY-boy/DRSR.git
@@ -27,9 +27,14 @@ git clone https://github.com/XY-boy/DRSR.git
 **Step II.** Prepare the test sets under different degradation settings
 
 - For ***"Isotropic Blur"*** degradations:
-We follow the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC).
+Using the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC) by changing the kernel width σ∈[0.2,4.0] at line [`sig=2.0`](https://github.com/yuanjunchai/IKC/blob/2a846cf1194cd9bace08973d55ecd8fd3179fe48/codes/scripts/generate_mod_LR_bic.py#L95)
 - For ***"Anisotropic Blur + Noise"*** degradations:
-We modify the degradation funtion.
+Using our modified funtion.
+### Visual results on isotropic Gaussian blur
+ ![image](/img/res.png)
+## Concat
+If you have any question or suggestion, feel free to concat me.  
+Email: xiao_yi@whu.edu.cn; Tel: (+86) 15927574475 (WeChat)
 
 ## Citation
 
