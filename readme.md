@@ -32,17 +32,19 @@ Using the degradation function [`generate_mod_LR_bic.py`](https://github.com/yua
 Using our modified funtion.
 ### Visual results on isotropic Gaussian blur
  ![image](/img/res.png)
-## Concat
-If you have any question or suggestion, feel free to concat me.  
+## Contact
+If you have any questions or suggestions, feel free to contact me.  
 Email: xiao_yi@whu.edu.cn; Tel: (+86) 15927574475 (WeChat)
 
 ## Citation
 
 ```
-@article{xiao2023degrade,
+@article{xiao2023d2u,
   title={From degrade to upgrade: Learning a self-supervised degradation guided adaptive network for blind remote sensing image super-resolution},
   author={Xiao, Yi and Yuan, Qiangqiang and Jiang, Kui and He, Jiang and Wang, Yuan and Zhang, Liangpei},
   journal={Information Fusion},
+  volume={96},
+  pages={297--311},
   year={2023},
   publisher={Elsevier}
 }
