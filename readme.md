@@ -30,13 +30,15 @@ git clone https://github.com/XY-boy/DRSR.git
 Using the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC) by changing the kernel width σ∈[0.2,4.0] at line [`sig=2.0`](https://github.com/yuanjunchai/IKC/blob/2a846cf1194cd9bace08973d55ecd8fd3179fe48/codes/scripts/generate_mod_LR_bic.py#L95)
 - For ***"Anisotropic Blur + Noise"*** degradations:
 Using our modified funtion.
-### Visual results on isotropic Gaussian blur
+### Visual results on Isotropic Gaussian blur
  ![image](/img/res.png)
 ## Contact
 If you have any questions or suggestions, feel free to contact me.  
-Email: xiao_yi@whu.edu.cn; Tel: (+86) 15927574475 (WeChat)
+Email: xiao_yi@whu.edu.cn  
+Tel: (+86) 15927574475 (WeChat)
 
 ## Citation
+If you find our work helpful in your research, kindly consider citing it. We appreciate your support！😊
 
 ```
 @article{xiao2023d2u,
