@@ -27,9 +27,10 @@ git clone https://github.com/XY-boy/DRSR.git
 **Step II.** Prepare the test sets under different degradation settings
 
 - For ***"Isotropic Blur"*** degradations:
-Using the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC) by changing the kernel width σ∈[0.2,4.0] at line [`sig=2.0`](https://github.com/yuanjunchai/IKC/blob/2a846cf1194cd9bace08973d55ecd8fd3179fe48/codes/scripts/generate_mod_LR_bic.py#L95)
+Using the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanjunchai/IKC/blob/master/codes/scripts/generate_mod_LR_bic.py) in [IKC](https://github.com/yuanjunchai/IKC) by changing the kernel width σ∈[0.2,4.0] at line [`sig=2.0`](https://github.com/yuanjunchai/IKC/blob/2a846cf1194cd9bace08973d55ecd8fd3179fe48/codes/scripts/generate_mod_LR_bic.py#L95). Or using our function [`generate_mod_LR_bic_iso.py`](https://github.com/XY-boy/DRSR/blob/main/script/generate_mod_LR_bic_iso.py) by setting the kernel width list at line [`sig_list`](https://github.com/XY-boy/DRSR/blob/15ca57d11998a2e7ae3887ec761b395f0444ca85/script/generate_mod_LR_bic_iso.py#L94C24-L94C24)
+
 - For ***"Anisotropic Blur + Noise"*** degradations:
-Using our modified funtion.
+Using our modified function [`generate_mod_LR_bic_aniso.py`](https://github.com/XY-boy/DRSR/blob/main/script/generate_mod_LR_bic_aniso.py) by changing the λ1, λ2, and θ at line [`dagradation_list`](https://github.com/XY-boy/DRSR/blob/15ca57d11998a2e7ae3887ec761b395f0444ca85/script/generate_mod_LR_bic_aniso.py#L89)
 ### Visual results on Isotropic Gaussian blur
  ![image](/img/res.png)
 ## Contact
