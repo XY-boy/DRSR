@@ -60,7 +60,7 @@ Email: xiao_yi@whu.edu.cn
 Tel: (+86) 15927574475 (WeChat)
 
 ## Citation
-If you find our work helpful in your research, kindly consider citing it. We appreciate your support！😊
+If you find our work helpful in your research, kindly consider citing it. We appreciate your support！😊😊
 
 ```
 @article{xiao2023d2u,
