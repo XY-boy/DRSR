@@ -72,4 +72,4 @@ If you find our work helpful in your research, kindly consider citing it. We app
 }
 ```
 ## Acknowledgement
-Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR). Thanks for these excellent works!
+Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR). Thanks to these excellent works!
