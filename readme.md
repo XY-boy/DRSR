@@ -52,7 +52,8 @@ python eval_aniso.py
 ### Visual results on Isotropic Gaussian blur
  ![image](/img/res.png)
 ### Quantitative results on anisotropic Gaussian blur
-More Results can be found in our paper [**PDF**](/img/res-aniso.png)!
+ ![image](/img/res-aniso.png)
+More Results can be found in our paper [**PDF**](/img/XY-IF.pdf)!
 ## Contact
 If you have any questions or suggestions, feel free to contact me.  
 Email: xiao_yi@whu.edu.cn  
