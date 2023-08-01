@@ -17,7 +17,7 @@ git clone https://github.com/XY-boy/DRSR.git
 > - PyTorch >= 1.9
 > - Ubuntu 18.04, cuda-11.1
 
-## Dataset Preparation
+## Dataset Preparation (Offline)
 **Step I.** Please download the following remote sensing datasets:
 | Data Type | [AID](https://captain-whu.github.io/AID/) | [DOTA-v2.0](https://captain-whu.github.io/DOTA/dataset.html) | [Jilin-1](https://ieeexplore.ieee.org/abstract/document/9530280) |
 | :----: | :-----: | :----: | :----: |
@@ -31,8 +31,27 @@ Use the degradation function [`generate_mod_LR_bic.py`](https://github.com/yuanj
 
 - For ***"Anisotropic Blur + Noise"*** degradations:
 Use our modified function [`generate_mod_LR_bic_aniso.py`](https://github.com/XY-boy/DRSR/blob/main/script/generate_mod_LR_bic_aniso.py) by changing the noise level at line [`noise_stable`](https://github.com/XY-boy/DRSR/blob/15ca57d11998a2e7ae3887ec761b395f0444ca85/script/generate_mod_LR_bic_aniso.py#L76C79-L76C79), then change the shape of anisotropic Gaussian blur kernel by setting λ1, λ2, and θ at line [`dagradation_list`](https://github.com/XY-boy/DRSR/blob/15ca57d11998a2e7ae3887ec761b395f0444ca85/script/generate_mod_LR_bic_aniso.py#L89).
+
+## Usage
+### Train
+Set the training option at [`option/train.py`](https://github.com/XY-boy/DRSR/blob/main/options/train.py). Then run the main file:
+```
+python main.py
+```
+**Note**: the setting of isotropic Gaussian blur and anisotropic Gaussian blur are useless during model training.
+### Test
+- For ***"Isotropic Blur"*** degradations: Change the `--sig` and other testing options at [`option/test.py`](https://github.com/XY-boy/DRSR/blob/main/options/train.py). Then run the test file:
+```
+python eval_iso.py
+```
+- For ***"Anisotropic Blur + Noise"*** degradations: Change the `noise`, `lr_folder`, `model_name`, and `save_results_dir` at [`eval_aniso.py`](https://github.com/XY-boy/DRSR/blob/main/eval_aniso.py). Then run the test file:
+```
+python eval_aniso.py
+```
+## Results
 ### Visual results on Isotropic Gaussian blur
  ![image](/img/res.png)
+More Results can be found in our paper [**PDF**](/img/XY-IF.pdf)!
 ## Contact
 If you have any questions or suggestions, feel free to contact me.  
 Email: xiao_yi@whu.edu.cn  
