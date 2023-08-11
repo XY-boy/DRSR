@@ -1,5 +1,5 @@
 # D2U (INFFUS 2023)
-### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](/img/XY-IF.pdf)
+### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](./img/XY-IF.pdf)
 
 PyTorch codes for "[From Degrade to Upgrade: Learning a Self-Supervised Degradation-Guided Adaptive Network for Blind Remote Sensing Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S1566253523001100)", **Information Fusion**, 2023.
 
