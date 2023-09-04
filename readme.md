@@ -41,8 +41,13 @@ Set the training option at [`option/train.py`](https://github.com/XY-boy/DRSR/bl
 ```
 python main.py
 ```
-**Note**: the setting of isotropic Gaussian blur and anisotropic Gaussian blur are useless during model training.
+**Note**: The setting of isotropic Gaussian blur and anisotropic Gaussian blur are useless during model training.
 ### Test
+- Download the pre-trained models from [checkpoint](https://github.com/XY-boy/DRSR/tree/main/checkpoint). We provide 4 weights.
+```
+d2u-aniso.pth/d2u-iso.pth    ----------    trained on remote sensing images
+DRSR_Blur.pth/DRSR_Noisy.pth    -------    finetune on natural images
+```
 - For ***"Isotropic Blur"*** degradations: Change the `--sig` and other testing options at [`option/test.py`](https://github.com/XY-boy/DRSR/blob/main/options/train.py). Then run the test file:
 ```
 python eval_iso.py
