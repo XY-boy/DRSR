@@ -45,8 +45,8 @@ python main.py
 ### Test
 - Download the pre-trained models from [checkpoint](https://github.com/XY-boy/DRSR/tree/main/checkpoint). We provide 4 weights.
 ```
-d2u-aniso.pth/d2u-iso.pth    ----------    trained on remote sensing images
-DRSR_Blur.pth/DRSR_Noisy.pth    -------    finetune on natural images
+d2u-aniso.pth/d2u-iso.pth    ----------    trained on remote sensing images (AID)
+DRSR_Blur.pth/DRSR_Noisy.pth    -------    finetune on natural images (DIV2K)
 ```
 - For ***"Isotropic Blur"*** degradations: Change the `--sig` and other testing options at [`option/test.py`](https://github.com/XY-boy/DRSR/blob/main/options/train.py). Then run the test file:
 ```
