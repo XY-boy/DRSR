@@ -46,7 +46,7 @@ python main.py
 - Download the pre-trained models from [checkpoint](https://github.com/XY-boy/DRSR/tree/main/checkpoint). We provide 4 weights for the evaluation of remote sensing and natural images!
 ```
 d2u-aniso.pth/d2u-iso.pth    ----------    trained on remote sensing images (AID)
-DRSR_Blur.pth/DRSR_Noisy.pth    -------    finetuned on natural images (DIV2K)
+DRSR_Blur.pth/DRSR_Noisy.pth    -------    trained on natural images (DIV2K)
 ```
 - For ***"Isotropic Blur"*** degradations: Change the `--sig` and other testing options at [`option/test.py`](https://github.com/XY-boy/DRSR/blob/main/options/train.py). Then run the test file:
 ```
