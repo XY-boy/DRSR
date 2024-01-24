@@ -74,7 +74,7 @@ def generate_mod_LR_bic(sig_num, clip_name):
         # rate_iso=1，只考虑各向同性，rate_iso=0，只考虑各向异性
         # noise_high代表最大噪声，用来构建随机噪声训练集，设置为25/255=0.098，noise_stable用来构建测试集，水平为
         # 0 5 10 的时候，noise_stable = 0 5/255 10/255
-        prepro = util.SRMDPreprocessing(up_scale, pca_matrix, random=False, para_input=10, kernel=13, noise=False,
+        prepro = util.SRMDPreprocessing(up_scale, pca_matrix, random=False, para_input=10, kernel=21, noise=False,
                                         cuda=True, sig=sig, sig_min=0.4, sig_max=2.0, rate_iso=1, scaling=3,
                                         rate_cln=0.2, noise_high=0)
                                         # random(sig_min, sig_max) | stable kernel(sig)
