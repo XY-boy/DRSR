@@ -62,6 +62,10 @@ python eval_aniso.py
 ### Quantitative results on anisotropic Gaussian blur
  ![image](/img/res-aniso.png)
 More Results can be found in our paper [**PDF**](/img/XY-IF.pdf)!
+
+## Acknowledgement
+Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR). Thanks to these excellent works!
+
 ## Contact
 If you have any questions or suggestions, feel free to contact me. 😊  
 Email: xiao_yi@whu.edu.cn; xy574475@gmail.com
@@ -80,5 +84,4 @@ If you find our work helpful in your research, kindly consider citing it. We app
   publisher={Elsevier}
 }
 ```
-## Acknowledgement
-Our work mainly borrows from [DASR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/DASR) and [SimCLR](https://github.com/sthalles/SimCLR). Thanks to these excellent works!
+
