@@ -24,8 +24,8 @@ git clone https://github.com/XY-boy/DRSR.git
 **Step I.** Please download the following remote sensing datasets:
 | Data Type | [AID](https://captain-whu.github.io/AID/) | [DOTA-v2.0](https://captain-whu.github.io/DOTA/dataset.html) | [Jilin-1](https://ieeexplore.ieee.org/abstract/document/9530280) |
 | :----: | :-----: | :----: | :----: |
-|Training | [Download](https://onedrive.live.com/?authkey=%21AAqO0B6SeejPkr0&id=42EC9A19F3DE58D8%2176404&cid=42EC9A19F3DE58D8&parId=root&parQt=sharedby&o=OneUp) | None | None |
-|Testing | [Download]() | [Download]() | [Download]() |
+|Training | [Download](https://captain-whu.github.io/AID/) | None | None |
+|Testing | [Download](https://captain-whu.github.io/AID/) | [Download](https://captain-whu.github.io/DOTA/dataset.html) | [Download](https://zenodo.org/records/6969604) |
 
 **Step II.** Prepare the test sets under different degradation settings:
 
